@@ -4,6 +4,7 @@
 	default_quest_shape: ""
 	filename: "getting_started"
 	group: ""
+	icon: "minecraft:grass_block"
 	id: "4714DB95A1AB82CF"
 	order_index: 0
 	quest_links: [ ]
@@ -26,6 +27,11 @@
 		{
 			dependencies: ["36CA290B1EC9C414"]
 			id: "3F3A8C5B465C399C"
+			rewards: [{
+				id: "48FF0C9D499D2619"
+				item: "exdeorum:silk_worm"
+				type: "item"
+			}]
 			tasks: [{
 				count: 6L
 				id: "64BD9C33206E2F6E"
@@ -36,5 +42,5 @@
 			y: 1.5d
 		}
 	]
-	title: "Getting Started"
+	title: "開始"
 }
