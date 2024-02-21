@@ -18,9 +18,9 @@
   // WARNING: This only works for vanilla dimensions (Overworld, Nether, End)
   // This is a resource list. See https://moddingx.org/libx/org/moddingx/libx/util/data/ResourceList.html#use_resource_lists_in_configs
   "generationStructures": {
-    "allow_list": true,
+    "allow_list": false,
     "elements": [
-      "minecraft:fortress"
+      "minecraft:fortress" // Add this line to allow Nether fortresses to generate
     ]
   }
 }
