@@ -7,6 +7,139 @@
 	id: "5F8A4B8788B3DFFF"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "47A2E6C66DDEEBE7"
+			tasks: [{
+				id: "6A06ACB323893696"
+				item: "kubejs:ancient_totem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "1A5A1B700C823C31"
+			tasks: [{
+				id: "63A581B71EC1007C"
+				item: "avaritia:infinity_sword"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "4CF59AF62C57D228"
+			tasks: [{
+				id: "78452AD7AB17D17E"
+				item: "avaritia:infinity_axe"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "43F4027BA35AF23B"
+			tasks: [{
+				id: "14A19BCC4FB4BA3D"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_pickaxe"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "6C44F21BF1A3B8DF"
+			tasks: [{
+				id: "36437C43DED4E55F"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_shovel"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "46E190673FCE821C"
+			tasks: [{
+				id: "1DC032F8E7C214B2"
+				item: "avaritia:infinity_hoe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "1A1A8E103B8C6A3B"
+			tasks: [{
+				id: "0A834943DC52EF08"
+				item: {
+					Count: 1b
+					id: "avaritia:infinity_bow"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "3026C7B94232E132"
+			tasks: [{
+				id: "7078A23FD878FEE7"
+				item: "avaritia:infinity_helmet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "6BDF4C1366BC1EF9"
+			tasks: [{
+				id: "7B9F7968B86742F0"
+				item: "avaritia:infinity_chestplate"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "12F9980F6A6EBDFB"
+			tasks: [{
+				id: "5FE6D10318B626ED"
+				item: "avaritia:infinity_pants"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["47A2E6C66DDEEBE7"]
+			id: "078D662CA769103B"
+			tasks: [{
+				id: "733501F0DE724F8C"
+				item: "avaritia:infinity_boots"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+	]
 	title: "無盡貪婪"
 }

@@ -3,6 +3,14 @@
 	default_quest_shape: ""
 	filename: "5C777807E50CF2ED"
 	group: "43CF3B4CDD40ABF2"
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:rm_katar"
+		tag: { }
+	}
 	id: "5C777807E50CF2ED"
 	order_index: 2
 	quest_links: [ ]
@@ -142,8 +150,8 @@
 				item: "projecte:gem_leggings"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 3.5d
+			x: 1.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["32C0856B31F0D5D2"]
@@ -153,8 +161,8 @@
 				item: "projecte:gem_boots"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 2.5d
+			y: 6.5d
 		}
 		{
 			id: "73938FC10A84B058"
