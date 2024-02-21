@@ -1,0 +1,7 @@
+minecraft:canyon
+minecraft:cave
+minecraft:cave_extra_underground
+twilightforest:highland_caves
+ad_astra:moon_crater
+minecraft:nether_cave
+twilightforest:tf_caves
