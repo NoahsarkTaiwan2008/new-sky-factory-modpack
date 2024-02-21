@@ -5,7 +5,7 @@ allowPortalsInOtherDimensions = false
 #Allow portals only for admins (Operators). This severely reduces the range in which the mod usually scans for valid portal conditions, and it scans near ops only.
 adminOnlyPortals = false
 #Disable Twilight Forest portal creation entirely. Provided for server operators looking to restrict action to the dimension.
-disablePortalCreation = false
+disablePortalCreation = true
 #Determines if new portals should be pre-checked for safety. If enabled, portals will fail to form rather than redirect to a safe alternate destination.
 #Note that enabling this also reduces the rate at which portal formation checks are performed.
 checkPortalDestination = false
@@ -75,7 +75,7 @@ cloudBlockPrecipitationDistance = 32
 	#Please note that table has more uses than just uncrafting, you can read about them here! http://benimatic.com/tfwiki/index.php?title=Uncrafting_Table
 	#It is highly recommended to keep the table enabled as the mod has special uncrafting exclusive recipes, but the option remains for people that dont want the table to be functional at all.
 	#If you are looking to just prevent normal crafting recipes from being reversed, consider using the 'disableUncrafting' option instead.
-	disableUncraftingTable = false
+	disableUncraftingTable = true
 
 #Settings for all things related to the magic trees.
 ["Magic Trees"]
