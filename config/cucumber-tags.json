@@ -23,7 +23,7 @@
   "forge:rubber": "null",
   "forge:gems/ruby": "thermal:ruby",
   "forge:ingots/lumium": "thermal:lumium_ingot",
-  "forge:ingots/platinum": "null",
+  "forge:ingots/platinum": "alltheores:platinum_ingot",
   "forge:dusts/niter": "thermal:niter_dust",
   "forge:dusts/sulfur": "thermal:sulfur_dust",
   "forge:ingots/lead": "thermal:lead_ingot",
