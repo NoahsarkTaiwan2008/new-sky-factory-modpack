@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5F8A4B8788B3DFFF"
+	group: "43CF3B4CDD40ABF2"
+	icon: "avaritia:infinity_catalyst"
+	id: "5F8A4B8788B3DFFF"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "無盡貪婪"
+}

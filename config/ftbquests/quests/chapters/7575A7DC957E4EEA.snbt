@@ -1,0 +1,19 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7575A7DC957E4EEA"
+	group: ""
+	icon: {
+		Count: 1b
+		ForgeCaps: {
+			Parent: { }
+		}
+		id: "projecte:philosophers_stone"
+		tag: { }
+	}
+	id: "7575A7DC957E4EEA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+	title: "等價交換"
+}

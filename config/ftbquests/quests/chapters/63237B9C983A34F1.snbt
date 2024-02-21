@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "63237B9C983A34F1"
+	group: "43CF3B4CDD40ABF2"
+	icon: "extendedcrafting:ultimate_auto_table"
+	id: "63237B9C983A34F1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [ ]
+	title: "合成擴展"
+}

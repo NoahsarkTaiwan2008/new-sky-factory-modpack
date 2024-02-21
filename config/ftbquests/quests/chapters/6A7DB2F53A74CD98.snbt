@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6A7DB2F53A74CD98"
+	group: "77C6C767451CF31C"
+	icon: {
+		Count: 1b
+		id: "thermal:wrench"
+		tag: { }
+	}
+	id: "6A7DB2F53A74CD98"
+	order_index: 7
+	quest_links: [ ]
+	quests: [ ]
+	title: "熱力膨脹"
+}

@@ -1,0 +1,12 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ad_astra"
+	group: "77C6C767451CF31C"
+	icon: "ad_astra:nasa_workbench"
+	id: "33A721EB121FCDBD"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Ad Astra!"
+}
