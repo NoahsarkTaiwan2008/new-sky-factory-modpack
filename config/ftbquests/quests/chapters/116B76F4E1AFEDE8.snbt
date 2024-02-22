@@ -7,15 +7,46 @@
 	id: "116B76F4E1AFEDE8"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		id: "747238A0679BAD17"
-		tasks: [{
-			id: "1CB5C57A1207AA84"
-			item: "rats:cheese"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -3.0d
-	}]
+	quests: [
+		{
+			id: "747238A0679BAD17"
+			tasks: [{
+				id: "1CB5C57A1207AA84"
+				item: "rats:cheese"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3FE5AE3A7885C708"]
+			description: [
+				"要怎麼馴服老鼠呢?你需要準備起司，在老鼠的附近把起司丟到地上，"
+				"他就會跑過去撿起來吃，吃了一定數量的起司後，你就馴服牠了。"
+			]
+			id: "67BFED0AB8C81CF3"
+			tasks: [{
+				advancement: "rats:tame_rat"
+				criterion: ""
+				id: "0DD55B590E105F87"
+				type: "advancement"
+			}]
+			title: "我馴服了老鼠???"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["老鼠會在垃圾堆上生成，不過，&e瘟疫老鼠&r也有可能會在這出現。"]
+			id: "3FE5AE3A7885C708"
+			tasks: [{
+				id: "59945184244E53F5"
+				item: "rats:garbage_pile"
+				type: "item"
+			}]
+			title: "生成老鼠"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
 	title: "老鼠"
 }
