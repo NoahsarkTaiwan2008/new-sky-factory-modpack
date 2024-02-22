@@ -11,19 +11,72 @@
 	id: "2068A89A4ADC3290"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "51BC78B904521119"
-		tasks: [{
-			id: "11D8525B25175E47"
-			item: {
-				Count: 1b
-				id: "ad_astra:tier_1_rocket"
-				tag: { }
-			}
-			type: "item"
-		}]
-		x: 0.0d
-		y: -3.0d
-	}]
+	quests: [
+		{
+			id: "51BC78B904521119"
+			tasks: [{
+				id: "11D8525B25175E47"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			id: "2401D6131A656A24"
+			tasks: [
+				{
+					id: "3B0488E96031DF0A"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FC2FF3ED7EC70F7"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "753FA25D224B7B48"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B07E92EEA37A33E"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+	]
 	title: "Ad Astra! - 星球探索"
 }

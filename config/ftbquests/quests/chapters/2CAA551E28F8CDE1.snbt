@@ -7,15 +7,146 @@
 	id: "2CAA551E28F8CDE1"
 	order_index: 1
 	quest_links: [ ]
-	quests: [{
-		id: "4501FD7EA00CB3C0"
-		tasks: [{
-			id: "78EA91402F376D19"
-			item: "create:andesite_alloy"
-			type: "item"
-		}]
-		x: -6.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			id: "4501FD7EA00CB3C0"
+			tasks: [{
+				id: "78EA91402F376D19"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4501FD7EA00CB3C0"]
+			id: "486B19C2859B901E"
+			rewards: [{
+				count: 20
+				id: "333F86295B68DF23"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0650FD417EF6ED58"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "55FF3689EDEDD375"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "60A5E1B8F37E81A9"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["486B19C2859B901E"]
+			id: "6FF2057FD226DC2A"
+			tasks: [{
+				id: "2331B46DDB0D7F40"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["486B19C2859B901E"]
+			id: "62A3FF8E9F6ECC5F"
+			tasks: [
+				{
+					id: "427F4EF16978BC8E"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "0CE4BA8090951BDB"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"6FF2057FD226DC2A"
+				"62A3FF8E9F6ECC5F"
+			]
+			dependency_requirement: "one_completed"
+			id: "14FF6B88D3BD64AD"
+			tasks: [
+				{
+					id: "687FBA4CF2173F96"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "025C1999B0AEE97F"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4E20C8D801E59DE2"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "489545BE7F7F8789"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "3E19C7AD5ED7AEA7"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "51C7A6E32982A7A1"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "基礎機器"
+			x: -6.0d
+			y: 4.0d
+		}
+		{
+			id: "67DE0D3D69780DE8"
+			tasks: [{
+				id: "6665768853DA7451"
+				item: "alltheores:brass_ingot"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["67DE0D3D69780DE8"]
+			id: "1E94F7A5EEE78BC6"
+			rewards: [{
+				count: 10
+				id: "6C380C94A489F4BE"
+				item: "alltheores:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				count: 21L
+				id: "3F0D7E41DB81BEAC"
+				item: { Count: 21b, id: "create:mechanical_crafter" }
+				type: "item"
+			}]
+			x: -6.0d
+			y: 7.0d
+		}
+	]
 	title: "動力機械"
 }

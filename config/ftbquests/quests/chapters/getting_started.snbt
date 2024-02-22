@@ -50,25 +50,18 @@
 				item: "exdeorum:silk_worm"
 				type: "item"
 			}]
-			tasks: [
-				{
-					id: "74E073D4EB406949"
-					item: "exdeorum:oak_sieve"
-					type: "item"
-				}
-				{
-					id: "00C52A62A0772162"
-					item: {
-						Count: 1b
-						id: "exdeorum:crook"
-						tag: {
-							Damage: 0
-						}
+			tasks: [{
+				id: "00C52A62A0772162"
+				item: {
+					Count: 1b
+					id: "exdeorum:crook"
+					tag: {
+						Damage: 0
 					}
-					type: "item"
 				}
-			]
-			x: 1.0d
+				type: "item"
+			}]
+			x: 0.0d
 			y: 3.0d
 		}
 		{
@@ -85,8 +78,25 @@
 				item: "exdeorum:string_mesh"
 				type: "item"
 			}]
-			x: 1.0d
+			x: 0.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["3F3A8C5B465C399C"]
+			id: "3449D340D3274A88"
+			tasks: [{
+				id: "2F5BD6996C4A9D6E"
+				item: {
+					Count: 1b
+					id: "exdeorum:wooden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "開始"
