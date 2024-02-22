@@ -7,6 +7,15 @@
 	id: "640664F3795B2FA5"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "0DC031CB9DDA69AF"
+		tasks: [{
+			id: "11E71D6212FF6176"
+			item: "ars_nouveau:novice_spell_book"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -2.5d
+	}]
 	title: "新生魔藝"
 }

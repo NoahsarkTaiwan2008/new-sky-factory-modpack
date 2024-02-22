@@ -7,6 +7,39 @@
 	id: "616DBCA5FA615BB3"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			id: "7146546573978F9A"
+			rewards: [{
+				id: "6D5744B95FAAADFE"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "41B4AA59E07223F1"
+				title: "工業先鋒!"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7146546573978F9A"]
+			id: "38806B45B2C3A316"
+			tasks: [{
+				id: "2E30D7ABA31ABD36"
+				item: "industrialforegoing:fluid_extractor"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+	]
 	title: "工業先鋒"
 }

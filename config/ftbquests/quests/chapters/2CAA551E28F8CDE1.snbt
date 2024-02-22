@@ -7,6 +7,15 @@
 	id: "2CAA551E28F8CDE1"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4501FD7EA00CB3C0"
+		tasks: [{
+			id: "78EA91402F376D19"
+			item: "create:andesite_alloy"
+			type: "item"
+		}]
+		x: -6.0d
+		y: -0.5d
+	}]
 	title: "動力機械"
 }

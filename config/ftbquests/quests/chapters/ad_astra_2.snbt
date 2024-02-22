@@ -11,6 +11,19 @@
 	id: "2068A89A4ADC3290"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "51BC78B904521119"
+		tasks: [{
+			id: "11D8525B25175E47"
+			item: {
+				Count: 1b
+				id: "ad_astra:tier_1_rocket"
+				tag: { }
+			}
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
 	title: "Ad Astra! - 星球探索"
 }

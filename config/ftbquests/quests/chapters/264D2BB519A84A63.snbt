@@ -7,6 +7,22 @@
 	id: "264D2BB519A84A63"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "4B48ABF073EC504F"
+		tasks: [
+			{
+				id: "6F17712534DF397E"
+				item: "alltheores:raw_osmium"
+				type: "item"
+			}
+			{
+				id: "4781263FCC69C948"
+				item: "alltheores:osmium_ingot"
+				type: "item"
+			}
+		]
+		x: -6.0d
+		y: 0.0d
+	}]
 	title: "通用機械"
 }

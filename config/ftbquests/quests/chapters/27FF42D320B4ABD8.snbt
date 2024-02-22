@@ -7,6 +7,15 @@
 	id: "27FF42D320B4ABD8"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "3A0EB5179FC057A0"
+		tasks: [{
+			dimension: "twilightforest:twilight_forest"
+			id: "70BA08F3C3BA2E23"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
 	title: "暮光森林"
 }

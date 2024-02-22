@@ -15,6 +15,15 @@
 	id: "702097BFFCC4DC58"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "366E244824F6DF4C"
+		tasks: [{
+			id: "52CEE0C830685081"
+			item: "hostilenetworks:deep_learner"
+			type: "item"
+		}]
+		x: -0.5d
+		y: -3.0d
+	}]
 	title: "敵對生物神經網路"
 }

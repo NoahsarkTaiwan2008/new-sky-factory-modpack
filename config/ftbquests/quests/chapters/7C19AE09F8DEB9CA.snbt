@@ -7,6 +7,15 @@
 	id: "7C19AE09F8DEB9CA"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "770E97EF71C7E44C"
+		tasks: [{
+			id: "6B34DC52EECCD35A"
+			item: "pipez:item_pipe"
+			type: "item"
+		}]
+		x: -4.5d
+		y: -2.5d
+	}]
 	title: "存儲與運輸"
 }

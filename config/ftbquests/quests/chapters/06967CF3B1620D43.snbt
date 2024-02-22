@@ -7,6 +7,16 @@
 	id: "06967CF3B1620D43"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "2458FF9C3667F551"
+		tasks: [{
+			dimension: "aether:the_aether"
+			icon: "aether:aether_portal_frame"
+			id: "4DED22460D5B31A3"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: -1.5d
+	}]
 	title: "天堂"
 }

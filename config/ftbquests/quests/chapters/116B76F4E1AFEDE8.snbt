@@ -7,6 +7,15 @@
 	id: "116B76F4E1AFEDE8"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "747238A0679BAD17"
+		tasks: [{
+			id: "1CB5C57A1207AA84"
+			item: "rats:cheese"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
 	title: "老鼠"
 }

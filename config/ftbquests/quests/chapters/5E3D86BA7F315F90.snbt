@@ -7,6 +7,15 @@
 	id: "5E3D86BA7F315F90"
 	order_index: 6
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "73115B6AA8ED683B"
+		tasks: [{
+			id: "0E3389A553BC8CE1"
+			item: "refinedstorage:controller"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.5d
+	}]
 	title: "精緻儲存"
 }

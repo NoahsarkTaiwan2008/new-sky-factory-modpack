@@ -7,6 +7,15 @@
 	id: "65F731FBF572BC54"
 	order_index: 4
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "214360F396446DBA"
+		tasks: [{
+			id: "021838C0AF4AD8D7"
+			item: "mysticalagriculture:inferium_essence"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -3.0d
+	}]
 	title: "神秘農業"
 }
