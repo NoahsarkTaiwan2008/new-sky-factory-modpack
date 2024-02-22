@@ -1,6 +1,7 @@
 {
   "modPriorities": [
     "minecraft",
+    "alltheores",
     "kubejs",
     "crafttweaker",
     "create",
