@@ -8,12 +8,21 @@
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		description: ["在遊戲前期，Pipez的管道就是最好的選擇!"]
 		id: "770E97EF71C7E44C"
-		tasks: [{
-			id: "6B34DC52EECCD35A"
-			item: "pipez:item_pipe"
-			type: "item"
-		}]
+		tasks: [
+			{
+				id: "6B34DC52EECCD35A"
+				item: "pipez:item_pipe"
+				type: "item"
+			}
+			{
+				id: "7BD9057EFBBF61C4"
+				item: "pipez:wrench"
+				type: "item"
+			}
+		]
+		title: "最簡單的物品物流"
 		x: -4.5d
 		y: -2.5d
 	}]
