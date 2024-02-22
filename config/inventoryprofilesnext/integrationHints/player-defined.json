@@ -1,0 +1,28 @@
+{
+    "com.blakebr0.extendedcrafting.client.screen.UltimateAutoTableScreen": {
+        "buttonHints": {
+            "MOVE_TO_CONTAINER": {
+                "bottom": -1
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 28,
+                "top": 50
+            },
+            "SORT": {
+                "horizontalOffset": -8,
+                "top": 15
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 4,
+                "top": 26
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 16,
+                "top": 38
+            },
+            "SETTINGS": {
+                "top": 6
+            }
+        }
+    }
+}

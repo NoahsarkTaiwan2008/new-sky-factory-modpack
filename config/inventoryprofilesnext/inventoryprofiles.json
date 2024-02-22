@@ -1,5 +1,6 @@
 {
     "ModSettings": {
+        "for_modpack_devs": true,
         "first_run": false
     },
     "GuiSettings": {
