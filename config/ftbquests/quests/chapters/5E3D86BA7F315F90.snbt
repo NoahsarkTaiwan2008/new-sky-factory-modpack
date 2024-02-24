@@ -50,6 +50,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["6A228C8788997AF7"]
 			id: "452B735C52ABA1B2"
 			tasks: [{
 				id: "2221DEC8F4777309"
@@ -78,8 +79,8 @@
 				item: "refinedstorage:16k_storage_part"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 2.0d
+			x: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["789A39BBC8484FFF"]
@@ -89,8 +90,8 @@
 				item: "refinedstorage:64k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 3.5d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["66E08A095529A79A"]
@@ -101,7 +102,7 @@
 				type: "item"
 			}]
 			x: 3.5d
-			y: 2.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["44CAE738800FE5FD"]
@@ -111,8 +112,8 @@
 				item: "extradisks:1024k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 5.0d
+			x: 5.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7FA497C457947680"]
@@ -122,8 +123,8 @@
 				item: "extradisks:4096k_storage_part"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 7.0d
+			x: 5.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["01D023B39EA1ED0B"]
@@ -133,8 +134,8 @@
 				item: "extradisks:16384k_storage_part"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 8.5d
+			x: 7.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["59355D47C7360EDD"]
@@ -144,8 +145,8 @@
 				item: "extradisks:65536k_storage_part"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 7.0d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2CEC6929C0053844"]
@@ -155,8 +156,8 @@
 				item: "extradisks:262144k_storage_part"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 2.0d
+			x: 9.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0EAF213B8A34DCF9"]
@@ -166,8 +167,8 @@
 				item: "extradisks:1048576k_storage_part"
 				type: "item"
 			}]
-			x: 3.5d
-			y: 0.5d
+			x: 9.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1D137C7313553783"]
@@ -177,8 +178,8 @@
 				item: "extradisks:infinite_storage_part"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 11.5d
+			y: 1.5d
 		}
 	]
 	title: "精緻儲存"
