@@ -1,0 +1,86 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "end"
+	group: "43CF3B4CDD40ABF2"
+	id: "006FB4A118BEED01"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6DF3222DDC2704BB"
+			tasks: [{
+				id: "53E317D7082E3ED9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_katar"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "7444D5BD757D29BC"
+			tasks: [{
+				id: "0474430588238B0C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: { }
+					}
+					id: "projecte:rm_morning_star"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "5191DD12495BBF78"
+			tasks: [{
+				id: "7BD4F1F81343AAEA"
+				item: "projecte:gem_helmet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			id: "0D9D60E6B7CD1652"
+			tasks: [{
+				id: "46D1BDB9131A7417"
+				item: "projecte:gem_chestplate"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			id: "6F9E296B52DDA185"
+			tasks: [{
+				id: "63F7CCA75371047B"
+				item: "projecte:gem_leggings"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "024788977C3C3C85"
+			tasks: [{
+				id: "382133236B7600BD"
+				item: "projecte:gem_boots"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+	]
+	title: "End!"
+}

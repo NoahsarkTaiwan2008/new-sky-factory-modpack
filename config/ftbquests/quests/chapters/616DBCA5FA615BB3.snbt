@@ -30,15 +30,80 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["7146546573978F9A"]
+			dependencies: ["5764EA77B264CAAB"]
 			id: "38806B45B2C3A316"
 			tasks: [{
 				id: "2E30D7ABA31ABD36"
 				item: "industrialforegoing:fluid_extractor"
 				type: "item"
 			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["38806B45B2C3A316"]
+			id: "2EBA562F7AB7FF64"
+			tasks: [{
+				id: "0CD115C2B1A74C29"
+				item: "industrialforegoing:latex_processing_unit"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "5764EA77B264CAAB"
+			tasks: [{
+				id: "1E0C1D7FEAF8914D"
+				item: "industrialforegoing:machine_frame_pity"
+				type: "item"
+			}]
 			x: 0.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["2EBA562F7AB7FF64"]
+			id: "2772256A950F38C0"
+			tasks: [{
+				id: "32C45150E431B9BA"
+				item: "industrialforegoing:plastic"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5764EA77B264CAAB"]
+			id: "23D3AE81991E312F"
+			tasks: [{
+				id: "1798842CAC1D2C3B"
+				item: "industrialforegoing:machine_frame_simple"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["23D3AE81991E312F"]
+			id: "7856A193C90A72D3"
+			tasks: [{
+				id: "4C3BA0EBBD1EF886"
+				item: "industrialforegoing:machine_frame_advanced"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7856A193C90A72D3"]
+			id: "1EEC92FF73039028"
+			tasks: [{
+				id: "18F3430C81E2A8DF"
+				item: "industrialforegoing:machine_frame_supreme"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
 		}
 	]
 	title: "工業先鋒"

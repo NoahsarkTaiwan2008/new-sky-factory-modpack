@@ -147,6 +147,17 @@
 			x: -6.0d
 			y: 7.0d
 		}
+		{
+			id: "427BC8B57297F36A"
+			tasks: [{
+				count: 2L
+				id: "4D462DDCD60D3112"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 7.0d
+		}
 	]
 	title: "動力機械"
 }

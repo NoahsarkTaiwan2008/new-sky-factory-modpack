@@ -6,6 +6,15 @@
 	id: "1DD3F38CC7BE2201"
 	order_index: 5
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "395E921A277C8316"
+		tasks: [{
+			id: "02598547A27BC24E"
+			item: "powah:dielectric_paste"
+			type: "item"
+		}]
+		x: 0.0d
+		y: -2.5d
+	}]
 	title: "波瓦科技"
 }

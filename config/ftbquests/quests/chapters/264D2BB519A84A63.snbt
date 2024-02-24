@@ -7,22 +7,34 @@
 	id: "264D2BB519A84A63"
 	order_index: 2
 	quest_links: [ ]
-	quests: [{
-		id: "4B48ABF073EC504F"
-		tasks: [
-			{
-				id: "6F17712534DF397E"
-				item: "alltheores:raw_osmium"
+	quests: [
+		{
+			id: "4B48ABF073EC504F"
+			tasks: [
+				{
+					id: "6F17712534DF397E"
+					item: "alltheores:raw_osmium"
+					type: "item"
+				}
+				{
+					id: "4781263FCC69C948"
+					item: "alltheores:osmium_ingot"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			id: "01A948DB371B79C8"
+			tasks: [{
+				id: "2B0B424E051D179D"
+				item: "mekanism:metallurgic_infuser"
 				type: "item"
-			}
-			{
-				id: "4781263FCC69C948"
-				item: "alltheores:osmium_ingot"
-				type: "item"
-			}
-		]
-		x: -6.0d
-		y: 0.0d
-	}]
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+	]
 	title: "通用機械"
 }

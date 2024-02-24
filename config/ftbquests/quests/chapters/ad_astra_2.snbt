@@ -77,6 +77,21 @@
 			x: -2.0d
 			y: -3.0d
 		}
+		{
+			dependencies: [
+				"2401D6131A656A24"
+				"51BC78B904521119"
+			]
+			id: "651B4D268B3D7CCE"
+			tasks: [{
+				dimension: "ad_astra:moon"
+				icon: "ad_astra:moon_globe"
+				id: "2CF245777A70AA9C"
+				type: "dimension"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
 	]
 	title: "Ad Astra! - 星球探索"
 }
