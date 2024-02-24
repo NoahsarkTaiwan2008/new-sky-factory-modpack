@@ -7,15 +7,179 @@
 	id: "5E3D86BA7F315F90"
 	order_index: 6
 	quest_links: [ ]
-	quests: [{
-		id: "73115B6AA8ED683B"
-		tasks: [{
-			id: "0E3389A553BC8CE1"
-			item: "refinedstorage:controller"
-			type: "item"
-		}]
-		x: 0.0d
-		y: -3.5d
-	}]
+	quests: [
+		{
+			id: "73115B6AA8ED683B"
+			tasks: [{
+				id: "0E3389A553BC8CE1"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			id: "6A228C8788997AF7"
+			tasks: [{
+				id: "41C5454669FAD2D9"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			id: "2E6EEABC385B458B"
+			tasks: [{
+				id: "192EA0390D23A8EB"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2E6EEABC385B458B"]
+			id: "2AA4A5F1F486DD8F"
+			tasks: [{
+				id: "3E1ED4BB6EB4F4E8"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "452B735C52ABA1B2"
+			tasks: [{
+				id: "2221DEC8F4777309"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["452B735C52ABA1B2"]
+			id: "0420C82F8CECA822"
+			tasks: [{
+				id: "3B9D37112FADF595"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0420C82F8CECA822"]
+			id: "789A39BBC8484FFF"
+			tasks: [{
+				id: "3761F5A6E55FC88E"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["789A39BBC8484FFF"]
+			id: "66E08A095529A79A"
+			tasks: [{
+				id: "2B92B444F05D4312"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["66E08A095529A79A"]
+			id: "44CAE738800FE5FD"
+			tasks: [{
+				id: "459C775E52438F73"
+				item: "extradisks:256k_storage_part"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["44CAE738800FE5FD"]
+			id: "7FA497C457947680"
+			tasks: [{
+				id: "7F6F370271234563"
+				item: "extradisks:1024k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7FA497C457947680"]
+			id: "01D023B39EA1ED0B"
+			tasks: [{
+				id: "2568B621F8E99D40"
+				item: "extradisks:4096k_storage_part"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["01D023B39EA1ED0B"]
+			id: "59355D47C7360EDD"
+			tasks: [{
+				id: "7D7671C57D336762"
+				item: "extradisks:16384k_storage_part"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["59355D47C7360EDD"]
+			id: "2CEC6929C0053844"
+			tasks: [{
+				id: "1E7B77306BFAF0B7"
+				item: "extradisks:65536k_storage_part"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2CEC6929C0053844"]
+			id: "0EAF213B8A34DCF9"
+			tasks: [{
+				id: "410A85DC071DA735"
+				item: "extradisks:262144k_storage_part"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0EAF213B8A34DCF9"]
+			id: "1D137C7313553783"
+			tasks: [{
+				id: "791730055F3DDCAA"
+				item: "extradisks:1048576k_storage_part"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1D137C7313553783"]
+			id: "21DE977AC5E9BF1D"
+			tasks: [{
+				id: "5885C70BECC345D4"
+				item: "extradisks:infinite_storage_part"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+	]
 	title: "精緻儲存"
 }

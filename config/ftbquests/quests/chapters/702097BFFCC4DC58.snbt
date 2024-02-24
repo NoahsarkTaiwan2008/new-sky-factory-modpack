@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "702097BFFCC4DC58"
-	group: ""
+	group: "77C6C767451CF31C"
 	icon: {
 		Count: 1b
 		id: "hostilenetworks:data_model"
@@ -13,17 +13,39 @@
 		}
 	}
 	id: "702097BFFCC4DC58"
-	order_index: 2
+	order_index: 9
 	quest_links: [ ]
-	quests: [{
-		id: "366E244824F6DF4C"
-		tasks: [{
-			id: "52CEE0C830685081"
-			item: "hostilenetworks:deep_learner"
-			type: "item"
-		}]
-		x: -0.5d
-		y: -3.0d
-	}]
+	quests: [
+		{
+			id: "366E244824F6DF4C"
+			tasks: [{
+				id: "52CEE0C830685081"
+				item: "hostilenetworks:deep_learner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			id: "48CEDBEA8B824BF0"
+			tasks: [{
+				id: "62671F9606B6C225"
+				item: "hostilenetworks:sim_chamber"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			id: "53F108F3289FA7B1"
+			tasks: [{
+				id: "1BC741FC9F5B9161"
+				item: "hostilenetworks:loot_fabricator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+	]
 	title: "敵對生物神經網路"
 }
