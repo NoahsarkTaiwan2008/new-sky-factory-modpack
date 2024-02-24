@@ -19,7 +19,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["3A0EB5179FC057A0"]
+			dependencies: ["1425CF740E692F8C"]
 			id: "4B479EAC71111B6A"
 			tasks: [{
 				id: "03C0E05050089CE7"
@@ -27,7 +27,33 @@
 				type: "item"
 			}]
 			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3A0EB5179FC057A0"]
+			description: [
+				"烏鴉羽毛可以從烏鴉身上取得。"
+				"烏鴉會出現在&e暮光森林(Twilight Forest)&r中的黑曜石柱附近。"
+			]
+			id: "62E3612CB37E505F"
+			tasks: [{
+				id: "0F5F786E92572038"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			x: 0.0d
 			y: -1.5d
+		}
+		{
+			dependencies: ["62E3612CB37E505F"]
+			id: "1425CF740E692F8C"
+			tasks: [{
+				id: "04FC17FE4504F019"
+				item: "twilightforest:magic_map_focus"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "暮光森林"

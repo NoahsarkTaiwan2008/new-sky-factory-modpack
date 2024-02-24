@@ -51,6 +51,18 @@
 			x: 0.0d
 			y: -1.5d
 		}
+		{
+			dependencies: ["67BFED0AB8C81CF3"]
+			description: ["各種升級的基礎。"]
+			id: "5A708BED3E76E3E2"
+			tasks: [{
+				id: "740984EEAA4F8701"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
 	]
 	title: "老鼠"
 }
